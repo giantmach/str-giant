@@ -130,6 +130,8 @@ celerybeat.pid
 .streamlit/
 .streamlit/secrets.tml
 .docs_cache/
+.gitignore
+.github/
 env/
 venv/
 ENV/
