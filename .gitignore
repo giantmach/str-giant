@@ -127,6 +127,8 @@ celerybeat.pid
 .vscode
 .env
 .venv
+.streamlit/
+.streamlit/secrets.tml
 env/
 venv/
 ENV/

@@ -35,9 +35,9 @@ def main():
     )
     
     
-    #my_api = '<<<YOUR AUTHENTICATION KEY HERE>>>'
+    dart_key = st.secrets["dart_key"]
     
-    dart = OpenDartReader(my_api)
+    dart = OpenDartReader(dart_key)
     
     corp_info(dart)
     st.pyplot(matplt_obj(dart))
