@@ -124,11 +124,12 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.vscode
+.vscode/
 .env
-.venv
+.venv/
 .streamlit/
 .streamlit/secrets.tml
+.docs_cache/
 env/
 venv/
 ENV/
